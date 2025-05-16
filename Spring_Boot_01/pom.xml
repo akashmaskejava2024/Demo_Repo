@@ -18,6 +18,7 @@
     <properties>
         <java.version>11</java.version> <!-- Upgraded from Java 8 -->
     </properties>
+    
 
     <dependencies>
         <!-- Core Spring Boot Dependencies -->

@@ -31,6 +31,7 @@ public class HomeController {
 
 	@PostMapping("/emp")
 	public Employee addEmp(@RequestBody Employee e) {
+		System.out.println("this is github demo");
 
 		return employeeRepo.save(e);
 
